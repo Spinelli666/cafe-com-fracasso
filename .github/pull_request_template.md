@@ -1,10 +1,10 @@
 # Pull Request Template
 
 ## Descrição
-Forneça uma descrição clara e concisa do que foi feito nesta Pull Request. Destaque o problema que está sendo resolvido ou a funcionalidade que está sendo implementada.
+Explique de forma breve o que foi feito nesta Pull Request.
 
-> **Exemplo**: 
-> "Implementa a funcionalidade de login utilizando autenticação JWT."
+
+> **Exemplo**: "Implementa a funcionalidade de login utilizando autenticação JWT."
 
 ---
 
@@ -12,30 +12,26 @@ Forneça uma descrição clara e concisa do que foi feito nesta Pull Request. De
 Liste as mudanças feitas no projeto, categorizando conforme o tipo da modificação:
 
 - **feat**: *(Novas funcionalidades)*
-  - Exemplo: "Adiciona o sistema de login."
+  - NONE
 - **fix**: *(Correções de bugs)*
-  - Exemplo: "Corrige erro no carregamento da página inicial."
+  - NONE
 - **docs**: *(Atualizações na documentação)*
-  - Exemplo: "Adiciona documentação para o novo endpoint `/api/login`."
+  - NONE
 - **styles**: *(Alterações visuais ou de CSS)*
-  - Exemplo: "Melhora o estilo dos botões na tela inicial."
+  - NONE
 - **refactor**: *(Melhorias de código sem alterar a funcionalidade)*
-  - Exemplo: "Refatora a função de autenticação para melhorar a legibilidade."
+  - NONE
 - **test**: *(Adição ou ajuste de testes)*
-  - Exemplo: "Adiciona testes unitários para o componente `Header`."
+  - NONE
 - **chore**: *(Manutenção e pequenas mudanças no projeto)*
-  - Exemplo: "Atualiza dependências no `package.json`."
+  - NONE
 
 ---
 
 ## Detalhes
-Adicione informações adicionais que sejam relevantes para o entendimento desta Pull Request, como:
-- Contexto técnico.
-- Dificuldades encontradas durante a implementação.
-- Impacto no sistema ou em outros componentes.
+Adicione informações adicionais relevantes, como contexto ou impactos no sistema.
 
-> **Exemplo**: 
-> "A implementação utiliza o middleware `AuthGuard` para proteger as rotas de acesso não autorizado. Algumas rotas exigem permissões específicas."
+> **Exemplo**: "A implementação utiliza o middleware `AuthGuard` para proteger as rotas de acesso não autorizado. Algumas rotas exigem permissões específicas."
 
 ---
 
@@ -51,10 +47,6 @@ Inclua capturas de tela ou GIFs para demonstrar as mudanças visuais ou funciona
 ---
 
 ## Notas
-Adicione observações importantes para os revisores, como:
-- Testes adicionais necessários.
-- Considerações futuras.
-- Limitações conhecidas.
+Inclua observações para os revisores, se necessário.
 
-> **Exemplo**: 
-> "O suporte a internacionalização (i18n) ainda não foi implementado, será tratado em uma próxima tarefa."
+> **Exemplo**: "O suporte a internacionalização (i18n) ainda não foi implementado, será tratado em uma próxima tarefa."
